@@ -11,5 +11,8 @@ object Main {
     val april: Month = Year.get(3).get
     println(april.fullName + " is in " + Year.getSeason(april).get)
   }
+  def fun(): Unit ={
+
+  }
 
 }
