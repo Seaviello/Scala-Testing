@@ -42,6 +42,10 @@ object Year {
 
   }
 
+  class Pop(){
+    
+  }
+
   object Month {
     def unapply(month: Month): Option[(String, String, Int)] = Some(month.fullName, month.abbreviation, month.number)
   }
