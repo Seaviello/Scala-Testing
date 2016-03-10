@@ -15,5 +15,7 @@ object Main {
   def fun(): Unit = {
     println("HO HO");
   }
+  def fun2(): Unit ={
 
+  }
 }
