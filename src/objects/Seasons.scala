@@ -12,4 +12,10 @@ object Main {
     println(april.fullName + " is in " + Year.getSeason(april).get)
   }
 
+  def fun(): Unit = {
+    println("HO HO");
+  }
+  def fun2(): Unit ={
+
+  }
 }
