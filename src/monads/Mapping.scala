@@ -1,4 +1,4 @@
-package functions
+package monads
 
 import scala.collection.immutable
 
