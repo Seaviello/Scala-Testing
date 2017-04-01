@@ -1,4 +1,4 @@
-package recursion
+package methods.recursion
 
 /**
   * Author: Tomasz Kawik
@@ -36,7 +36,7 @@ object FlexibleNumeralSystem {
     base.toString + 'x' + accumulator(num, maximumPowerLowerThanValue)
   }
 
-  def decode(str: String) = {
+  def decode(str: String): Int = {
     val baseAndNum = "[0-9]+".r.findAllIn(str).toList
 
     def compute(c: Char, i: Int): Int ={
